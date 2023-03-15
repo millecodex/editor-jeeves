@@ -9,7 +9,7 @@ response = openai.ChatCompletion.create(
     messages=[
         {"role": "system", "content": "You are a helpful editor that maintains latex formatting."},
         {"role": "user", "content": "Can you edit this paragraph of text?"},
-        {"role": "user", "content": "The absence of sustainable development will lead to software stagnation although it can be difficult to determine if a project has died~\cite{Chengalur2010}. The concept of forking \begin{xx} [Definition? fit?]\end{xx} within the open source movement can preserve a project's genetic lineage by reviving abandoned repositories that have been  considered dead. New participants can easily fork code and evolve it into something new without the friction of attempting modifications on the original code base. It has been shown that forking benefits sustainability"}
+        {"role": "user", "content": "paragraph here"}
     ],
     max_tokens=1000,
     n=1,
